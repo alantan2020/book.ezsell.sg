@@ -1,0 +1,10 @@
+2021-01-15T13:53:48+00:00 CRITICAL /www/wwwroot/ezsell/book.ezsell.sg/wp-content/plugins/wpforms/pro/wpforms-pro.php 中第 1418 行的 Uncaught Error: Call to a member function addons() on null in /www/wwwroot/ezsell/book.ezsell.sg/wp-content/plugins/wpforms/pro/wpforms-pro.php:1418
+Stack trace:
+#0 /www/wwwroot/ezsell/book.ezsell.sg/wp-content/plugins/wpforms/pro/wpforms-pro.php(1373): WPForms_Pro->get_wpforms_plugins()
+#1 /www/wwwroot/ezsell/book.ezsell.sg/wp-includes/class-wp-hook.php(287): WPForms_Pro->rollback_auto_update_plugin_default_value(true, Object(stdClass))
+#2 /www/wwwroot/ezsell/book.ezsell.sg/wp-includes/plugin.php(212): WP_Hook->apply_filters(true, Array)
+#3 /www/wwwroot/ezsell/book.ezsell.sg/wp-admin/includes/update.php(1066): apply_filters('auto_update_plu...', true, Object(stdClass))
+#4 /www/wwwroot/ezsell/book.ezsell.sg/wp-admin/includes/class-wp-site-health.php(2468): wp_is_auto_update_forced_for_item('plugin', true, Object(stdClass))
+#5 /www/wwwroot/ezsell/book.ezsell.sg/wp-admin/includes/class-wp-site-health.php(1767): WP_Site_Health->detect_plugin_theme_auto_update_issues()
+#6 /www/wwwroot/ezsell/book.ezsell.sg/wp-adm
+
